@@ -1,0 +1,17 @@
+Groupe Corentin COUSTY | Hermas OBOU | Ignacio ARROYO | Wilkens JOSEPH
+
+## Objectif :
+
+Nous voulons faire une IA qui est capable de finir des Jump Minecraft.
+
+Un “jump” sur Minecraft est un parcours qui nécessite beaucoup de dextérité pour bien doser la distance de ses sauts pour atterrir sur le suivant.
+
+Il faut donc bien comprendre quel est le bloc suivant atteignable.
+
+D’autres parcours peuvent nécessiter plus d’actions que des simples sauts, par exemple grimper des échelles, utiliser des mécaniques spécifiques à Minecraft.
+
+L’avantage d’utiliser Minecraft est que le jeu est programmé en java, un langage qu’on connait et il est très modable donc on peut facilement avoir accès aux données du jeu pour les donner en paramètres à l’IA, par exemple connaitre le type de bloc et sa position sans avoir besoin de faire de la reconnaissance d’images.
+
+Nous pourrons donc varier la difficulté de l’IA et voir comment elle s’en sort sur différent parcours plus ou moins compliqué et selon la diversité des techniques qu’elle doit découvrir pour passer le parcours.
+
+Le but est qu’elle apprenne à force de faire des essais et nous pouvons lui donner une récompense dépendant de sa progression sur le parcours.
