@@ -28,6 +28,8 @@ Projet-Apprentissage/
 ---
 
 ## ⚙️ Installation rapide
+D'après ce tuto :
+https://minerl.readthedocs.io/en/latest/tutorials/index.html
 
 ### 🔸 Sous Linux/macOS
 
