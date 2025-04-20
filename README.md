@@ -27,6 +27,19 @@ Projet-Apprentissage/
 
 ---
 
+
+## Préparer l'environnement conda "minerl"
+Penser à utiliser java JDK 8 dans cet environnement
+```
+conda update -n base -c defaults conda -y
+conda init
+```
+Redémarrer le terminal pour que les modifications soient prises en compte
+
+```
+conda create -n minerl python=3.8 -y
+```
+
 ## ⚙️ Installation rapide
 D'après ce tuto :
 https://minerl.readthedocs.io/en/latest/tutorials/index.html
@@ -38,14 +51,10 @@ setup.sh
 ```
 
 ### 🔸 Sous Windows
-Lancer depuis WSL ou Git Bash
+Utiliser les fichiers dans "./Fichiers Setup" pour activer java JDK 8 uniquement dans cet environnement.
+
 ```
-WSL doit posséder java 8 sinon :
-sudo apt update
-sudo apt install openjdk-8-jdk
-
 setup.bat
-
 ```
 
 
