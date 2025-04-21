@@ -12,6 +12,7 @@ Projet-Apprentissage/
 ├── maps/              # Maps Minecraft customisées
 ├── minerl_envs/       # Scripts pour customiser les environnements MineRL
 ├── agent/             # Code IA (entraîneur, modèles)
+|--- courses/		# Fichiers de configurations des parcours
 ├── main.py            # Point d'entrée du projet
 ├── requirements.txt   # Dépendances
 └── README.md          # Présentation
@@ -29,7 +30,10 @@ Projet-Apprentissage/
 
 
 ## Préparer l'environnement conda "minerl"
-Penser à utiliser java JDK 8 dans cet environnement
+
+Penser à utiliser java JDK 8 dans cet environnement.
+Vérifier bien avec la commande : java -version
+
 ```
 conda update -n base -c defaults conda -y
 conda init
