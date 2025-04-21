@@ -1,3 +1,4 @@
+
 # 🎮 Projet Apprentissage — IA Jump Minecraft
 
 Ce projet a pour objectif de concevoir une **intelligence artificielle** capable de réussir des parcours de type *jump* dans **Minecraft**, en utilisant l'apprentissage par renforcement (*Reinforcement Learning*).
@@ -6,90 +7,86 @@ Ce projet a pour objectif de concevoir une **intelligence artificielle** capable
 
 ## 📁 Arborescence du projet
 
+```
 Projet-Apprentissage/
 │
-├── notebooks/         # Tests et exploration
-├── maps/              # Maps Minecraft customisées
-├── minerl_envs/       # Scripts pour customiser les environnements MineRL
-├── agent/             # Code IA (entraîneur, modèles)
-|--- courses/		# Fichiers de configurations des parcours
-├── main.py            # Point d'entrée du projet
-├── requirements.txt   # Dépendances
-└── README.md          # Présentation
-
+├── agent/              # Code IA (entraîneur, modèles)
+├── courses/            # Configs des parcours (.json)
+├── docs/               # Documentation technique
+├── maps/               # Maps Minecraft customisées
+│   └── JumpsAI/        # Exemple de monde Minecraft 1.12.2
+├── minerl_envs/        # Environnements personnalisés MineRL
+├── notebooks/          # Analyses et tests
+├── utils/              # Scripts utilitaires (setup, import/export maps...)
+│   └── Fichiers Setup/ # Activation Java JDK 8 (Windows)
+├── main.py             # Point d’entrée du projet
+├── requirements.txt    # Dépendances Python
+└── README.md           # Présentation du projet
+```
 
 ---
 
-## 🚀 Objectif pédagogique
+## 🚀 Objectifs pédagogiques
 
 - Maîtriser les bases de l’**apprentissage par renforcement (RL)**.
-- Exploiter l’environnement **Minecraft** comme banc d’expérimentation IA.
-- Concevoir, entraîner et tester une IA capable de réussir des parcours personnalisés.
+- Exploiter **Minecraft** comme banc d’expérimentation IA.
+- Concevoir, entraîner et tester une IA sur des parcours personnalisés.
 
 ---
 
+## ⚙️ Préparation de l’environnement (conda)
 
-## Préparer l'environnement conda "minerl"
+Penser à utiliser Java JDK 8 dans l’environnement `minerl`.
 
-Penser à utiliser java JDK 8 dans cet environnement.
-Vérifier bien avec la commande : java -version
-
-```
-conda update -n base -c defaults conda -y
-conda init
-```
-Redémarrer le terminal pour que les modifications soient prises en compte
-
-```
+```bash
 conda create -n minerl python=3.8 -y
+conda activate minerl
 ```
 
-## ⚙️ Installation rapide
-D'après ce tuto :
-https://minerl.readthedocs.io/en/latest/tutorials/index.html
+Sous Windows, utiliser les scripts de `utils/Fichiers Setup` pour activer Java JDK 8 à l’entrée/sortie de l’environnement.
 
-### 🔸 Sous Linux/macOS
+---
 
+## 🔁 Ajout d’un parcours personnalisé
+
+1. Créez un monde Minecraft avec **Minecraft 1.12.2**.
+2. Copiez-le dans `maps/` (ex: `maps/NomDuParcours/`).
+3. Créez un fichier de config JSON dans `courses/`, avec les infos suivantes :
+```json
+{
+  "start_pos": [x, y, z],
+  "goal_block": [x, y, z],
+  "death_y_level": y_min,
+  "reward_goal": 100,
+  "reward_step": -1,
+  "reward_fail": -100
+}
 ```
-setup.sh
-```
+4. Le monde est ensuite utilisé via un environnement MineRL personnalisé dans `minerl_envs/`.
 
-### 🔸 Sous Windows
-Utiliser les fichiers dans "./Fichiers Setup" pour activer java JDK 8 uniquement dans cet environnement.
+---
 
-```
-setup.bat
-```
+## 📤 Scripts utilitaires
 
+Le dossier `utils/` contient :
+- `course_loader.py` : charge dynamiquement les configs JSON de parcours.
+- `import_map.py` / `export_map.py` *(à venir)* : scripts pour automatiser l’import/export de maps Minecraft.
+- `Fichiers Setup/` : pour configurer l’environnement Java sur Windows (activation automatique du JDK 8).
 
+---
 
-🧠 Technologies utilisées
+## 🧠 Technologies utilisées
 
-    🐍 Python 3.8
+- 🐍 Python 3.8
+- 🎮 MineRL
+- 🤖 Stable-Baselines3
+- 🧪 OpenAI Gym
 
-    🎮 MineRL
+---
 
-    🧪 OpenAI Gym
+## 👥 Équipe projet
 
-    🤖 Stable-Baselines3
-
-🗺️ Personnalisation des parcours
-
-Les parcours personnalisés doivent être :
-
-    créés sous Minecraft 1.12.2
-
-    ajoutés dans le dossier maps/
-
-    déclarés dans un environnement personnalisé dans minerl_envs/
-
-
-👥 Équipe projet
-
-	Corentin COUSTY
-
-	Hermas OBOU
-
-	Ignacio ARROYO
-	
-	Le Multi-Scaled
+- Corentin COUSTY  
+- Hermas OBOU  
+- Ignacio ARROYO  
+- Le Multi-Scaled
