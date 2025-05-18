@@ -1,5 +1,68 @@
 
-# 🎮 Projet Apprentissage — IA Jump Minecraft
+# 🎮 Projet Apprentissage---
+
+## 🚀 Utilisation des scripts
+
+### Installation complète
+
+Exécutez le script d'ins## 📤 Gestion des cartes Minecraft
+
+Pour faciliter l'utilisation des cartes Minecraft, trois outils sont disponibles dans le dossier `utils/` :
+
+```bash
+# Interface interactive complète
+python utils/manage_maps.py
+
+# Importer une carte de Minecraft vers le projet
+python utils/import_mapToProject.py --map JumpsAI
+
+# Exporter une carte du projet vers Minecraft
+python utils/export_mapToMinecraftGame.py --map JumpsAI
+
+# Lister les cartes disponibles
+python utils/manage_maps.py --list
+```
+
+L'interface interactive permet de gérer facilement les cartes sans avoir à mémoriser les commandes.ion automatique:
+```bash
+setup_complete.bat
+```
+
+### Test de l'environnement
+
+Pour tester l'environnement avec des actions aléatoires:
+```bash
+python main.py --course 1 --mode test
+```
+
+### Entraînement d'un agent
+
+Pour entraîner un agent sur un parcours spécifique:
+```bash
+python train_agent.py --course 1 --algo PPO --timesteps 500000
+```
+
+Options disponibles:
+- `--course` : ID du parcours à utiliser
+- `--algo` : Algorithme d'apprentissage (PPO, A2C, DQN)
+- `--timesteps` : Nombre total d'étapes d'entraînement
+- `--n-envs` : Nombre d'environnements parallèles
+- `--model-dir` : Répertoire de sauvegarde du modèle
+- `--load-model` : Chemin vers un modèle à charger pour continuer l'entraînement
+
+### Évaluation d'un agent
+
+Pour évaluer un agent entraîné:
+```bash
+python eval_agent.py --model-path models/best_1_PPO/best_model --course 1 --algo PPO
+```
+
+### Exécution d'un agent entraîné
+
+Pour simplement exécuter un agent entraîné sur un parcours:
+```bash
+python run_agent.py --model-path models/final_1_PPO --course 1 --algo PPO
+```
 
 Ce projet a pour objectif de concevoir une **intelligence artificielle** capable de réussir des parcours de type *jump* dans **Minecraft**, en utilisant l'apprentissage par renforcement (*Reinforcement Learning*).
 

@@ -1,0 +1,24 @@
+{
+  "start_pos": [-606, 6, -1339],
+  "goal_block": [0, 0, 0],
+  "checkpoints": [],
+  "death_y_level": 0,
+  "reward_goal": 100,
+  "reward_step": -1,
+  "reward_checkpoint": 20,
+  "reward_fail": -100,
+  "block_types": {
+    "start_block_id": 42,
+    "path_block_id": 1,
+    "checkpoint_block_id": 41,
+    "goal_block_id": 57,
+    "death_block_id": 49
+  },
+  "platform_reward": true,
+  "platform_reward_value": -1,
+  "game_settings": {
+    "gamemode": "adventure",
+    "allow_flying": false,
+    "allow_breaking_blocks": false
+  }
+}
