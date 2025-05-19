@@ -27,7 +27,9 @@ echo "export PATH=\$(echo \$PATH | sed -e 's#\$JAVA_HOME/bin:##')" >> "$CONDA_PR
 
 # ---- 5. Install MineRL and dependencies ----
 pip install --upgrade pip
-pip install minerl==0.4.4 gym==0.17.2
+#pip install git+https://github.com/minerllabs/minerl --user
+#pip install git+https://github.com/minerllabs/minerl@v1.0.0
+pip install minerl
 pip install torch torchvision
 
 # ---- 6. Done ----

@@ -10,12 +10,6 @@ conda activate minerl
 echo "JAVA_HOME is set to: $JAVA_HOME"
 java -version
 
-# Optional: Run a quick MineRL test
-echo "Testing MineRL with Treechop environment..."
-python -c "
-import minerl
-env = minerl.make('Treechop-v0')
-obs = env.reset()
-print('MineRL environment loaded successfully.')
-env.close()
-"
+# Launch a new bash shell with the env activated
+exec bash --rcfile <(echo "source ~/.bashrc; conda activate minerl")
+
