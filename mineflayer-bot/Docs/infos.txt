@@ -1,0 +1,36 @@
+spawn = -607 5 -1341
+start = iron_bloc (id = #0042)
+path = stone (id = #0001)
+checkpoint = gold_bloc (id = #0041)
+finish = diamond_bloc (id = #0057)
+death = obsidian (id = #0049)
+
+Jumps spawn positions
+Jump 1 :
+-370 6 -144
+
+Jump 2:
+-607 6 -1341
+
+
+The agent see in a 6 blocs radius.
+
+https://github.com/seantey/minerl_parkour/tree/master
+
+
+{
+  "start_pos": [-606, 6, -1339],
+  "goal_block": [0, 0, 0],
+  "checkpoints": [],
+  "death_y_level": 0,
+  "reward_goal": 100,
+  "reward_step": -1,
+  "reward_checkpoint": 20,
+  "reward_fail": -100,
+  "block_types": {
+    "start_block_id": 42,
+    "path_block_id": 1,
+    "checkpoint_block_id": 41,
+    "goal_block_id": 57,
+    "death_block_id": 49
+  }
