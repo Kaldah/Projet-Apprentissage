@@ -3,7 +3,7 @@ const Vec3 = require('vec3')
 
 const bot = mineflayer.createBot({
 host: 'localhost',   // Change to your server IP or 'localhost' for singleplayer
-port: 55243,         // Change to your server port
+port: 25565,         // Change to your server port
 username: 'ParkourBot'
 })
 

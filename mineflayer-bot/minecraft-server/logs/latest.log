@@ -1,0 +1,71 @@
+[14:07:19] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14:07:27] [ServerMain/INFO]: Loaded 7 recipes
+[14:07:33] [Server thread/INFO]: Starting minecraft server version 1.19.4
+[14:07:33] [Server thread/INFO]: Loading properties
+[14:07:33] [Server thread/INFO]: This server is running Paper version git-Paper-550 (MC: 1.19.4) (Implementing API version 1.19.4-R0.1-SNAPSHOT) (Git: 483368e on ver/1.19.4)
+[14:07:33] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:07:33] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:07:34] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[14:07:34] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and gen parallelism of 4 threads
+[14:07:35] [Server thread/INFO]: Default game type: SURVIVAL
+[14:07:35] [Server thread/INFO]: Generating keypair
+[14:07:35] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:07:35] [Server thread/INFO]: Using default channel type
+[14:07:35] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[14:07:35] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[14:07:35] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:07:35] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:07:35] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:07:35] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:07:35] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:07:35] [Server thread/INFO]: Preparing level "world"
+[14:07:36] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:07:36] [Server thread/INFO]: Time elapsed: 236 ms
+[14:07:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[14:07:36] [Server thread/INFO]: Time elapsed: 34 ms
+[14:07:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[14:07:37] [Server thread/INFO]: Time elapsed: 25 ms
+[14:07:37] [Server thread/INFO]: Running delayed init tasks
+[14:07:37] [Server thread/INFO]: Done (4.108s)! For help, type "help"
+[14:07:37] [Server thread/INFO]: Timings Reset
+[14:08:41] [Server thread/INFO]: Made Kaldah_The_One a server operator
+[14:09:11] [User Authenticator #0/INFO]: UUID of player Kaldah_The_One is 258e145e-5a3f-30d2-b5b3-f9cfd275a7c7
+[14:09:12] [Server thread/INFO]: Kaldah_The_One joined the game
+[14:09:12] [Server thread/INFO]: Kaldah_The_One[/127.0.0.1:64435] logged in with entity id 79 at ([world]-143.5, 63.0, -144.5)
+[14:09:31] [User Authenticator #0/INFO]: UUID of player ParkourBot is cba44064-e970-36d2-aa73-8693eb5c079a
+[14:09:31] [Server thread/INFO]: ParkourBot joined the game
+[14:09:31] [Server thread/INFO]: ParkourBot[/[0:0:0:0:0:0:0:1]:64483] logged in with entity id 207 at ([world]-147.5, 63.0, -142.5)
+[14:09:31] [Server thread/INFO]: ParkourBot issued server command: /tp ParkourBot -336 8 -148
+[14:10:51] [Server thread/INFO]: Kaldah_The_One lost connection: Disconnected
+[14:10:51] [Server thread/INFO]: Kaldah_The_One left the game
+[14:11:20] [Server thread/INFO]: ParkourBot lost connection: Disconnected
+[14:11:20] [Server thread/INFO]: ParkourBot left the game
+[14:47:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 1691376ms or 33827 ticks behind
+[15:49:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3665447ms or 73308 ticks behind
+[16:01:21] [Server thread/INFO]: Stopping server
+[16:01:21] [Server thread/INFO]: Saving players
+[16:01:21] [Server thread/INFO]: Saving worlds
+[16:01:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:01:21] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[16:01:21] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[16:01:21] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[16:01:22] [Server thread/INFO]: [ChunkHolderManager] Saved 1527 block chunks, 102 entity chunks, 0 poi chunks in world 'world' in 0,81s
+[16:01:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:01:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[16:01:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[16:01:22] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[16:01:22] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[16:01:22] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 21 entity chunks, 0 poi chunks in world 'world_nether' in 0,01s
+[16:01:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:01:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[16:01:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[16:01:22] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[16:01:22] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[16:01:22] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0,01s
+[16:01:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:01:22] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:01:22] [Server thread/INFO]: Flushing Chunk IO
+[16:01:22] [Server thread/INFO]: Closing Thread Pool
+[16:01:22] [Server thread/INFO]: Closing Server
