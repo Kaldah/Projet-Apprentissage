@@ -3,8 +3,8 @@ spawn = [x,y,z]
 start = iron_bloc (id = #0042)
 path = stone (id = #0001)
 checkpoint = gold_bloc (id = #0041)
-finish = diamond_bloc (id = #0057)
-death = obsidian (id = #0049)
+finish_bloc = diamond_bloc (id = #0057)
+death_bloc = obsidian (id = #0049)
 
 Jumps spawn positions examples
 Jump 1 :
@@ -15,3 +15,8 @@ Jump 2:
 
 
 The agent see in a 6 blocs radius in front of him to simulate vision.
+
+Pour le reward :
+-1 à chaque nouveau bloc
+-100 ou distance à l'arrivée (en nombre de bloc) en cas de chute (contact avec le death_bloc)
++100 ou distance à l'arrivée (en nombre de bloc) en cas de réussite (contact avec le finish_bloc)
