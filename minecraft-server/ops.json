@@ -1,5 +1,17 @@
 [
   {
+    "uuid": "c8a9fb70-a2a7-3535-b1f5-6cff3449265e",
+    "name": "N7JumpingBot",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "d9c3cca0-b29f-3964-8f65-932a1fccd322",
+    "name": "TestTPBot",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "258e145e-5a3f-30d2-b5b3-f9cfd275a7c7",
     "name": "Kaldah_The_One",
     "level": 4,

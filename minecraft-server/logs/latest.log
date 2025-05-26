@@ -1,76 +1,140 @@
-[02:38:38] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[02:38:41] [ServerMain/INFO]: Loaded 7 recipes
-[02:38:44] [Server thread/INFO]: Starting minecraft server version 1.19.4
-[02:38:44] [Server thread/INFO]: Loading properties
-[02:38:44] [Server thread/INFO]: This server is running Paper version git-Paper-550 (MC: 1.19.4) (Implementing API version 1.19.4-R0.1-SNAPSHOT) (Git: 483368e on ver/1.19.4)
-[02:38:44] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[02:38:44] [Server thread/INFO]: Using 4 threads for Netty based IO
-[02:38:45] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[03:42:46] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03:42:49] [ServerMain/INFO]: Loaded 7 recipes
+[03:42:52] [Server thread/INFO]: Starting minecraft server version 1.19.4
+[03:42:52] [Server thread/INFO]: Loading properties
+[03:42:52] [Server thread/INFO]: This server is running Paper version git-Paper-550 (MC: 1.19.4) (Implementing API version 1.19.4-R0.1-SNAPSHOT) (Git: 483368e on ver/1.19.4)
+[03:42:52] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[03:42:52] [Server thread/INFO]: Using 4 threads for Netty based IO
+[03:42:52] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[02:38:45] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and gen parallelism of 4 threads
-[02:38:45] [Server thread/INFO]: Default game type: SURVIVAL
-[02:38:45] [Server thread/INFO]: Generating keypair
-[02:38:45] [Server thread/INFO]: Starting Minecraft server on *:25565
-[02:38:45] [Server thread/INFO]: Using default channel type
-[02:38:45] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[02:38:45] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[02:38:47] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.20+6667-f0f1e66
-[02:38:48] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3c542662]
-[02:38:48] [Server thread/INFO]: [WorldEdit] Default configuration file written: config.yml
-[02:38:48] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[02:38:48] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.20+6667-f0f1e66
-[02:38:48] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[02:38:49] [Server thread/INFO]: WEPIF: Updated config file
-[02:38:49] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[02:38:49] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R3.PaperweightAdapter as the Bukkit adapter
-[02:38:51] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[02:38:51] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[02:38:51] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[02:38:51] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[02:38:51] [Server thread/INFO]: Preparing level "N7Jumps"
-[02:38:53] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[02:38:53] [Server thread/INFO]: Time elapsed: 384 ms
-[02:38:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[02:38:53] [Server thread/INFO]: Time elapsed: 67 ms
-[02:38:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[02:38:53] [Server thread/INFO]: Time elapsed: 27 ms
-[02:38:53] [Server thread/INFO]: Running delayed init tasks
-[02:38:53] [Server thread/INFO]: Done (9.487s)! For help, type "help"
-[02:38:53] [Server thread/INFO]: Timings Reset
-[02:39:34] [User Authenticator #0/INFO]: UUID of player Kaldah_The_One is 258e145e-5a3f-30d2-b5b3-f9cfd275a7c7
-[02:39:34] [Server thread/INFO]: Kaldah_The_One joined the game
-[02:39:34] [Server thread/INFO]: Kaldah_The_One[/127.0.0.1:61573] logged in with entity id 12 at ([N7Jumps]7.375636672700257, -60.0, 11.374098848843731)
-[02:39:40] [Server thread/INFO]: Kaldah_The_One issued server command: //wand
-[02:40:01] [Server thread/INFO]: Kaldah_The_One issued server command: //walls glass
-[02:41:20] [Server thread/INFO]: Kaldah_The_One issued server command: //walls ##
-[02:41:31] [Server thread/INFO]: Kaldah_The_One issued server command: //walls ##buttons
-[02:44:54] [Server thread/INFO]: Kaldah_The_One lost connection: Disconnected
-[02:44:54] [Server thread/INFO]: Kaldah_The_One left the game
-[02:45:40] [Server thread/INFO]: Stopping server
-[02:45:40] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.20+6667-f0f1e66
-[02:45:40] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[02:45:40] [Server thread/INFO]: Saving players
-[02:45:40] [Server thread/INFO]: Saving worlds
-[02:45:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[N7Jumps]'/minecraft:overworld
-[02:45:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'N7Jumps'
-[02:45:40] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'N7Jumps'
-[02:45:40] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'N7Jumps'
-[02:45:40] [Server thread/INFO]: [ChunkHolderManager] Saved 615 block chunks, 0 entity chunks, 0 poi chunks in world 'N7Jumps' in 0,35s
-[02:45:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (N7Jumps): All chunks are saved
-[02:45:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[N7Jumps_nether]'/minecraft:the_nether
-[02:45:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'N7Jumps_nether'
-[02:45:40] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'N7Jumps_nether'
-[02:45:40] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'N7Jumps_nether'
-[02:45:40] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'N7Jumps_nether' in 0,00s
-[02:45:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[02:45:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[N7Jumps_the_end]'/minecraft:the_end
-[02:45:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'N7Jumps_the_end'
-[02:45:40] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'N7Jumps_the_end'
-[02:45:40] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'N7Jumps_the_end'
-[02:45:40] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'N7Jumps_the_end' in 0,08s
-[02:45:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[02:45:40] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[02:45:40] [Server thread/INFO]: Flushing Chunk IO
-[02:45:40] [Server thread/INFO]: Closing Thread Pool
-[02:45:40] [Server thread/INFO]: Closing Server
+[03:42:52] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and gen parallelism of 4 threads
+[03:42:53] [Server thread/INFO]: Default game type: SURVIVAL
+[03:42:53] [Server thread/INFO]: Generating keypair
+[03:42:53] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:42:53] [Server thread/INFO]: Using default channel type
+[03:42:53] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[03:42:53] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[03:42:55] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.20+6667-f0f1e66
+[03:42:56] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@78bf6da3]
+[03:42:56] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[03:42:56] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.20+6667-f0f1e66
+[03:42:56] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[03:42:56] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[03:42:57] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R3.PaperweightAdapter as the Bukkit adapter
+[03:42:58] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:42:58] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:42:58] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:42:58] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:42:58] [Server thread/INFO]: Preparing level "N7Jumps"
+[03:43:00] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:43:00] [Server thread/INFO]: Time elapsed: 312 ms
+[03:43:00] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[03:43:00] [Server thread/INFO]: Time elapsed: 41 ms
+[03:43:00] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[03:43:00] [Server thread/INFO]: Time elapsed: 27 ms
+[03:43:00] [Server thread/INFO]: Running delayed init tasks
+[03:43:00] [Server thread/INFO]: Done (8.731s)! For help, type "help"
+[03:43:00] [Server thread/INFO]: Timings Reset
+[03:43:01] [User Authenticator #0/INFO]: UUID of player N7JumpingBot is c8a9fb70-a2a7-3535-b1f5-6cff3449265e
+[03:43:02] [Server thread/INFO]: N7JumpingBot joined the game
+[03:43:02] [Server thread/INFO]: N7JumpingBot[/[0:0:0:0:0:0:0:1]:60565] logged in with entity id 1 at ([N7Jumps]10.7, -60.0, -12.7)
+[03:43:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5131ms or 102 ticks behind
+[03:43:06] [Server thread/INFO]: N7JumpingBot issued server command: /tp 8 -55 12
+[03:43:07] [Server thread/INFO]: [N7JumpingBot: Teleported N7JumpingBot to 8.500000, -55.000000, 12.500000]
+[03:43:28] [Server thread/INFO]: N7JumpingBot issued server command: /tp 8 -58 2
+[03:43:28] [Server thread/INFO]: [N7JumpingBot: Teleported N7JumpingBot to 8.500000, -58.000000, 2.500000]
+[03:43:29] [Server thread/INFO]: N7JumpingBot issued server command: /tp 8 -55 12
+[03:43:29] [Server thread/INFO]: [N7JumpingBot: Teleported N7JumpingBot to 8.500000, -55.000000, 12.500000]
+[03:43:33] [Server thread/INFO]: N7JumpingBot issued server command: /tp 8 -55 12
+[03:43:33] [Server thread/INFO]: [N7JumpingBot: Teleported N7JumpingBot to 8.500000, -55.000000, 12.500000]
+[03:43:35] [Server thread/INFO]: N7JumpingBot issued server command: /tp 8 -55 12
+[03:43:35] [Server thread/INFO]: [N7JumpingBot: Teleported N7JumpingBot to 8.500000, -55.000000, 12.500000]
+[03:43:39] [Server thread/INFO]: N7JumpingBot issued server command: /tp 8 -55 12
+[03:43:39] [Server thread/INFO]: [N7JumpingBot: Teleported N7JumpingBot to 8.500000, -55.000000, 12.500000]
+[03:43:40] [User Authenticator #0/INFO]: UUID of player Kaldah_The_One is 258e145e-5a3f-30d2-b5b3-f9cfd275a7c7
+[03:43:40] [Server thread/INFO]: Kaldah_The_One joined the game
+[03:43:40] [Server thread/INFO]: Kaldah_The_One[/127.0.0.1:60575] logged in with entity id 13 at ([N7Jumps]7.418518984247132, -60.0, -12.699999988079071)
+[03:43:42] [Server thread/INFO]: N7JumpingBot issued server command: /tp 8 -55 12
+[03:43:42] [Server thread/INFO]: [N7JumpingBot: Teleported N7JumpingBot to 8.500000, -55.000000, 12.500000]
+[03:43:46] [Server thread/INFO]: N7JumpingBot hit the ground too hard
+[03:43:46] [Server thread/INFO]: N7JumpingBot issued server command: /tp 8 -55 12
+[03:43:46] [Server thread/INFO]: [N7JumpingBot: Teleported N7JumpingBot to 8.500000, -55.000000, 12.500000]
+[03:43:50] [Server thread/INFO]: Kaldah_The_One issued server command: /gamemode creative
+[03:43:50] [Server thread/INFO]: [Kaldah_The_One: Set own game mode to Creative Mode]
+[03:44:04] [Server thread/INFO]: N7JumpingBot issued server command: /tp 8 -55 12
+[03:44:04] [Server thread/INFO]: [N7JumpingBot: Teleported N7JumpingBot to 8.500000, -55.000000, 12.500000]
+[03:44:17] [Server thread/INFO]: N7JumpingBot issued server command: /tp 8 -55 12
+[03:44:17] [Server thread/INFO]: [N7JumpingBot: Teleported N7JumpingBot to 8.500000, -55.000000, 12.500000]
+[03:44:19] [Server thread/INFO]: N7JumpingBot issued server command: /tp 8 -55 12
+[03:44:19] [Server thread/INFO]: [N7JumpingBot: Teleported N7JumpingBot to 8.500000, -55.000000, 12.500000]
+[03:44:47] [Server thread/INFO]: N7JumpingBot issued server command: /tp 8 -55 12
+[03:44:47] [Server thread/INFO]: [N7JumpingBot: Teleported N7JumpingBot to 8.500000, -55.000000, 12.500000]
+[03:44:50] [Server thread/INFO]: N7JumpingBot issued server command: /tp 8 -55 12
+[03:44:50] [Server thread/INFO]: [N7JumpingBot: Teleported N7JumpingBot to 8.500000, -55.000000, 12.500000]
+[03:44:52] [Server thread/INFO]: N7JumpingBot issued server command: /tp 8 -55 12
+[03:44:52] [Server thread/INFO]: [N7JumpingBot: Teleported N7JumpingBot to 8.500000, -55.000000, 12.500000]
+[03:44:56] [Server thread/INFO]: N7JumpingBot issued server command: /tp 8 -55 12
+[03:44:56] [Server thread/INFO]: [N7JumpingBot: Teleported N7JumpingBot to 8.500000, -55.000000, 12.500000]
+[03:44:59] [Server thread/INFO]: N7JumpingBot issued server command: /tp 8 -55 12
+[03:44:59] [Server thread/INFO]: [N7JumpingBot: Teleported N7JumpingBot to 8.500000, -55.000000, 12.500000]
+[03:45:04] [Server thread/INFO]: N7JumpingBot issued server command: /tp 8 -55 12
+[03:45:04] [Server thread/INFO]: [N7JumpingBot: Teleported N7JumpingBot to 8.500000, -55.000000, 12.500000]
+[03:45:05] [Server thread/INFO]: N7JumpingBot issued server command: /tp 8 -55 12
+[03:45:05] [Server thread/INFO]: [N7JumpingBot: Teleported N7JumpingBot to 8.500000, -55.000000, 12.500000]
+[03:45:08] [Server thread/INFO]: N7JumpingBot issued server command: /tp 8 -55 12
+[03:45:08] [Server thread/INFO]: [N7JumpingBot: Teleported N7JumpingBot to 8.500000, -55.000000, 12.500000]
+[03:45:12] [Server thread/INFO]: N7JumpingBot issued server command: /tp 8 -55 12
+[03:45:12] [Server thread/INFO]: [N7JumpingBot: Teleported N7JumpingBot to 8.500000, -55.000000, 12.500000]
+[03:45:17] [Server thread/INFO]: N7JumpingBot issued server command: /tp 8 -55 12
+[03:45:17] [Server thread/INFO]: [N7JumpingBot: Teleported N7JumpingBot to 8.500000, -55.000000, 12.500000]
+[03:45:22] [Server thread/INFO]: N7JumpingBot issued server command: /tp 8 -55 12
+[03:45:22] [Server thread/INFO]: [N7JumpingBot: Teleported N7JumpingBot to 8.500000, -55.000000, 12.500000]
+[03:45:26] [Server thread/INFO]: N7JumpingBot issued server command: /tp 8 -55 12
+[03:45:26] [Server thread/INFO]: [N7JumpingBot: Teleported N7JumpingBot to 8.500000, -55.000000, 12.500000]
+[03:45:43] [Server thread/INFO]: N7JumpingBot issued server command: /tp 8 -55 12
+[03:45:43] [Server thread/INFO]: [N7JumpingBot: Teleported N7JumpingBot to 8.500000, -55.000000, 12.500000]
+[03:45:45] [Server thread/INFO]: N7JumpingBot issued server command: /tp 8 -55 12
+[03:45:45] [Server thread/INFO]: [N7JumpingBot: Teleported N7JumpingBot to 8.500000, -55.000000, 12.500000]
+[03:45:55] [Server thread/INFO]: N7JumpingBot issued server command: /tp 8 -55 12
+[03:45:55] [Server thread/INFO]: [N7JumpingBot: Teleported N7JumpingBot to 8.500000, -55.000000, 12.500000]
+[03:46:17] [Server thread/INFO]: N7JumpingBot issued server command: /tp 8 -55 12
+[03:46:17] [Server thread/INFO]: [N7JumpingBot: Teleported N7JumpingBot to 8.500000, -55.000000, 12.500000]
+[03:46:25] [Server thread/INFO]: N7JumpingBot issued server command: /tp 8 -55 12
+[03:46:25] [Server thread/INFO]: [N7JumpingBot: Teleported N7JumpingBot to 8.500000, -55.000000, 12.500000]
+[03:46:32] [Server thread/INFO]: N7JumpingBot issued server command: /tp 8 -55 12
+[03:46:32] [Server thread/INFO]: [N7JumpingBot: Teleported N7JumpingBot to 8.500000, -55.000000, 12.500000]
+[03:46:37] [Server thread/INFO]: N7JumpingBot issued server command: /tp 8 -55 12
+[03:46:37] [Server thread/INFO]: [N7JumpingBot: Teleported N7JumpingBot to 8.500000, -55.000000, 12.500000]
+[03:46:40] [Server thread/INFO]: Kaldah_The_One lost connection: Disconnected
+[03:46:40] [Server thread/INFO]: Kaldah_The_One left the game
+[03:46:44] [Server thread/INFO]: N7JumpingBot hit the ground too hard
+[03:48:42] [Server thread/INFO]: Stopping server
+[03:48:42] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.20+6667-f0f1e66
+[03:48:42] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[03:48:42] [Server thread/INFO]: Saving players
+[03:48:42] [Server thread/INFO]: N7JumpingBot lost connection: Server closed
+[03:48:42] [Server thread/INFO]: N7JumpingBot left the game
+[03:48:42] [Server thread/INFO]: Saving worlds
+[03:48:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[N7Jumps]'/minecraft:overworld
+[03:48:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'N7Jumps'
+[03:48:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'N7Jumps'
+[03:48:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'N7Jumps'
+[03:48:42] [Server thread/INFO]: [ChunkHolderManager] Saved 26 block chunks, 25 entity chunks, 0 poi chunks in world 'N7Jumps' in 0,03s
+[03:48:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (N7Jumps): All chunks are saved
+[03:48:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[N7Jumps_nether]'/minecraft:the_nether
+[03:48:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'N7Jumps_nether'
+[03:48:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'N7Jumps_nether'
+[03:48:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'N7Jumps_nether'
+[03:48:42] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'N7Jumps_nether' in 0,00s
+[03:48:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:48:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[N7Jumps_the_end]'/minecraft:the_end
+[03:48:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'N7Jumps_the_end'
+[03:48:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'N7Jumps_the_end'
+[03:48:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'N7Jumps_the_end'
+[03:48:42] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'N7Jumps_the_end' in 0,02s
+[03:48:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:48:42] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[03:48:42] [Server thread/INFO]: Flushing Chunk IO
+[03:48:42] [Server thread/INFO]: Closing Thread Pool
+[03:48:42] [Server thread/INFO]: Closing Server
