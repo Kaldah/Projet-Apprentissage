@@ -19,4 +19,5 @@ world-settings:
     simulation-distance: 6
     tick-inactive-villagers: false
     use-faster-eigencrafting: true
+    velocity-check: false
     view-distance: 3

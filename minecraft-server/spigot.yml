@@ -16,7 +16,6 @@ settings:
   timeout-time: 60
   sample-count: 12
   moved-too-quickly-multiplier: 10.0
-  moved-wrongly-threshold: 0.0625
   player-shuffle: 0
   attribute:
     maxHealth:
@@ -34,6 +33,8 @@ settings:
   restart-on-crash: false
   restart-script: ./start.sh
   netty-threads: 4
+  moved-too-fast: 100.0
+  moved-wrongly-threshold: 100.0
 
 players:
   disable-saving: true
