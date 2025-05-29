@@ -1,87 +1,102 @@
-[04:34:54] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[04:34:57] [ServerMain/INFO]: Loaded 7 recipes
-[04:35:00] [Server thread/INFO]: Starting minecraft server version 1.19.4
-[04:35:00] [Server thread/INFO]: Loading properties
-[04:35:00] [Server thread/INFO]: This server is running Paper version git-Paper-550 (MC: 1.19.4) (Implementing API version 1.19.4-R0.1-SNAPSHOT) (Git: 483368e on ver/1.19.4)
-[04:35:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[04:35:00] [Server thread/INFO]: Using 4 threads for Netty based IO
-[04:35:00] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 4 I/O threads, 8 worker threads, and gen parallelism of 8 threads
-[04:35:00] [Server thread/INFO]: Default game type: SURVIVAL
-[04:35:00] [Server thread/INFO]: Generating keypair
-[04:35:01] [Server thread/INFO]: Starting Minecraft server on *:25565
-[04:35:01] [Server thread/INFO]: Using default channel type
-[04:35:01] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[04:35:01] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[04:35:01] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.20+6667-f0f1e66
-[04:35:02] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@2cd98644]
-[04:35:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[04:35:02] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.20+6667-f0f1e66
-[04:35:02] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[04:35:02] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[04:35:02] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R3.PaperweightAdapter as the Bukkit adapter
-[04:35:03] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[04:35:03] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[04:35:03] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[04:35:03] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[04:35:03] [Server thread/INFO]: Preparing level "N7Jumps"
-[04:35:04] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[04:35:05] [Server thread/INFO]: Time elapsed: 652 ms
-[04:35:05] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[04:35:06] [Server thread/INFO]: Time elapsed: 867 ms
-[04:35:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[04:35:06] [Server thread/INFO]: Time elapsed: 939 ms
-[04:35:07] [Server thread/INFO]: Running delayed init tasks
-[04:35:07] [Server thread/INFO]: Done (6.848s)! For help, type "help"
-[04:35:07] [Server thread/INFO]: Timings Reset
-[04:35:32] [User Authenticator #0/INFO]: UUID of player RLBot_0 is 229a4bb8-0477-3354-a331-1bd9ecc6ba68
-[04:35:32] [Server thread/INFO]: RLBot_0 joined the game
-[04:35:32] [Server thread/INFO]: RLBot_0[<ip address withheld>] logged in with entity id 12 at ([N7Jumps]0.5, -60.0, -9.5)
-[04:35:33] [Server thread/WARN]: RLBot_0 moved too quickly! 8.0,5.0,22.0
-[04:35:33] [Server thread/WARN]: RLBot_0 moved too quickly! 8.0,5.0,22.0
-[04:35:40] [User Authenticator #0/INFO]: UUID of player Kaldah_The_One is 258e145e-5a3f-30d2-b5b3-f9cfd275a7c7
-[04:35:40] [Server thread/INFO]: Kaldah_The_One joined the game
-[04:35:40] [Server thread/INFO]: Kaldah_The_One[<ip address withheld>] logged in with entity id 13 at ([N7Jumps]8.19373295706329, -52.34417012847067, 13.084284440513187)
-[04:35:54] [Server thread/WARN]: RLBot_0 moved too quickly! 1.4195359391467308,5.0,11.119681583316039
-[04:36:54] [Server thread/INFO]: RLBot_0 hit the ground too hard
-[04:37:14] [Server thread/WARN]: RLBot_0 moved too quickly! 1.830151285320329,5.0,11.49467590824912
-[04:37:44] [Server thread/WARN]: RLBot_0 moved too quickly! 2.2,4.945106700651635,15.958964865503395
-[04:38:15] [Server thread/WARN]: RLBot_0 moved too quickly! 1.7871378835892928,5.0,12.55707568262151
-[04:38:18] [Server thread/WARN]: RLBot_0 moved too quickly! 2.2,5.0,17.175225420925827
-[04:38:34] [Server thread/WARN]: RLBot_0 moved too quickly! 1.2314937524387952,5.0,18.870113160483825
-[04:38:44] [Server thread/WARN]: RLBot_0 moved too quickly! 1.81903629513541,5.0,12.350198924304127
-[04:38:47] [Server thread/WARN]: RLBot_0 moved too quickly! 2.2,5.0,16.291982727113865
-[04:38:56] [Server thread/WARN]: RLBot_0 moved too quickly! 1.669130117438213,5.0,11.811115810780379
-[04:38:59] [Server thread/WARN]: RLBot_0 moved too quickly! 2.2,5.0,16.93523546130154
-[04:39:05] [Server thread/WARN]: RLBot_0 moved too quickly! 1.3577780551068015,5.0,9.540238587487158
-[04:39:42] [Server thread/INFO]: Kaldah_The_One lost connection: Disconnected
-[04:39:42] [Server thread/INFO]: Kaldah_The_One left the game
-[04:39:47] [Server thread/INFO]: Stopping server
-[04:39:47] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.20+6667-f0f1e66
-[04:39:47] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[04:39:47] [Server thread/INFO]: Saving players
-[04:39:47] [Server thread/INFO]: RLBot_0 lost connection: Server closed
-[04:39:47] [Server thread/INFO]: RLBot_0 left the game
-[04:39:47] [Server thread/INFO]: Saving worlds
-[04:39:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[N7Jumps]'/minecraft:overworld
-[04:39:47] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'N7Jumps'
-[04:39:47] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'N7Jumps'
-[04:39:47] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'N7Jumps'
-[04:39:48] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'N7Jumps' in 1,03s
-[04:39:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (N7Jumps): All chunks are saved
-[04:39:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[N7Jumps_nether]'/minecraft:the_nether
-[04:39:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'N7Jumps_nether'
-[04:39:48] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'N7Jumps_nether'
-[04:39:48] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'N7Jumps_nether'
-[04:39:49] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'N7Jumps_nether' in 0,66s
-[04:39:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[04:39:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[N7Jumps_the_end]'/minecraft:the_end
-[04:39:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'N7Jumps_the_end'
-[04:39:49] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'N7Jumps_the_end'
-[04:39:49] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'N7Jumps_the_end'
-[04:39:49] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'N7Jumps_the_end' in 0,25s
-[04:39:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[04:39:49] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[04:39:49] [Server thread/INFO]: Saving usercache.json
-[04:39:49] [Server thread/INFO]: Flushing Chunk IO
-[04:39:49] [Server thread/INFO]: Closing Thread Pool
-[04:39:49] [Server thread/INFO]: Closing Server
+[19:54:01] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:54:04] [ServerMain/INFO]: Loaded 7 recipes
+[19:54:06] [Server thread/INFO]: Starting minecraft server version 1.19.4
+[19:54:06] [Server thread/INFO]: Loading properties
+[19:54:06] [Server thread/INFO]: This server is running Paper version git-Paper-550 (MC: 1.19.4) (Implementing API version 1.19.4-R0.1-SNAPSHOT) (Git: 483368e on ver/1.19.4)
+[19:54:06] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:54:06] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:54:07] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 4 I/O threads, 8 worker threads, and gen parallelism of 8 threads
+[19:54:07] [Server thread/INFO]: Default game type: SURVIVAL
+[19:54:07] [Server thread/INFO]: Generating keypair
+[19:54:07] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:54:08] [Server thread/INFO]: Using default channel type
+[19:54:08] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[19:54:08] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[19:54:09] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.20+6667-f0f1e66
+[19:54:11] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@5e5b88f5]
+[19:54:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:54:11] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.20+6667-f0f1e66
+[19:54:11] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[19:54:11] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[19:54:11] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R3.PaperweightAdapter as the Bukkit adapter
+[19:54:13] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:54:13] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:54:13] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:54:13] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:54:13] [Server thread/INFO]: Preparing level "N7Jumps"
+[19:54:15] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:54:16] [Server thread/INFO]: Time elapsed: 1216 ms
+[19:54:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:54:16] [Server thread/INFO]: Time elapsed: 37 ms
+[19:54:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:54:16] [Server thread/INFO]: Time elapsed: 26 ms
+[19:54:16] [Server thread/INFO]: Running delayed init tasks
+[19:54:16] [Server thread/INFO]: Done (10.035s)! For help, type "help"
+[19:54:16] [Server thread/INFO]: Timings Reset
+[19:54:17] [User Authenticator #0/INFO]: UUID of player RLBot_0 is 229a4bb8-0477-3354-a331-1bd9ecc6ba68
+[19:54:18] [Server thread/INFO]: RLBot_0 joined the game
+[19:54:18] [Server thread/INFO]: RLBot_0[<ip address withheld>] logged in with entity id 1 at ([N7Jumps]9.5, -60.0, 9.5)
+[19:55:47] [Server thread/INFO]: RLBot_0 hit the ground too hard
+[19:56:04] [Server thread/WARN]: RLBot_0 moved too quickly! 1.4812558620594425,5.0,9.88513065655394
+[19:56:26] [Server thread/WARN]: RLBot_0 moved too quickly! 1.378195499510884,5.0,12.99991993453722
+[19:56:40] [Server thread/WARN]: RLBot_0 moved too quickly! 1.2635081167199678,5.0,11.173090459685783
+[19:56:43] [Server thread/WARN]: RLBot_0 moved too quickly! 1.394620768071352,5.0,9.732588920999156
+[19:56:53] [Server thread/WARN]: RLBot_0 moved too quickly! 1.0747300814577407,5.0,9.2969034742877
+[19:57:34] [Server thread/WARN]: RLBot_0 moved too quickly! 1.1269337537996655,5.0,8.64336820777326
+[19:58:07] [Server thread/WARN]: RLBot_0 moved too quickly! 1.5475377567963555,5.0,11.983596865584547
+[19:58:18] [Server thread/WARN]: RLBot_0 moved too quickly! 2.09222829303184,5.0,14.471593936896246
+[19:58:36] [Server thread/WARN]: RLBot_0 moved too quickly! 1.5651760602575013,5.0,12.396084358602165
+[19:58:56] [Server thread/WARN]: RLBot_0 moved too quickly! 1.3215604110237145,5.0,9.747667944149082
+[19:59:17] [Server thread/WARN]: RLBot_0 moved too quickly! 1.5068081202543002,5.0,13.397309288705118
+[20:00:53] [Server thread/WARN]: RLBot_0 moved too quickly! 1.2810543339932376,5.0,9.185790462599128
+[20:01:09] [Server thread/WARN]: RLBot_0 moved too quickly! 1.3421770589416884,5.0,9.74445637731502
+[20:01:16] [Server thread/WARN]: RLBot_0 moved too quickly! 2.0032793034184015,5.0,14.11415442961821
+[20:01:45] [Server thread/WARN]: RLBot_0 moved too quickly! 1.2513035301526854,5.0,10.053679793903644
+[20:01:54] [Server thread/WARN]: RLBot_0 moved too quickly! 1.9647179435559883,5.0,14.36032912452679
+[20:02:36] [Server thread/WARN]: RLBot_0 moved too quickly! 1.9226706050309375,5.0,14.057310048814443
+[20:02:49] [Server thread/WARN]: RLBot_0 moved too quickly! 1.2717431650903022,5.0,9.260070065227143
+[20:02:57] [Server thread/WARN]: RLBot_0 moved too quickly! 1.2697551134358767,5.0,8.81472012567163
+[20:03:22] [Server thread/WARN]: RLBot_0 moved too quickly! 1.6133609245290188,5.0,12.816214868061682
+[20:03:34] [Server thread/WARN]: RLBot_0 moved too quickly! 1.9115911806689052,5.0,13.723047432473335
+[20:03:37] [Server thread/WARN]: RLBot_0 moved too quickly! 1.3291417428198722,5.0,11.597965966148118
+[20:03:40] [Server thread/WARN]: RLBot_0 moved too quickly! 1.4662175161624003,5.0,11.802723553331298
+[20:03:43] [Server thread/WARN]: RLBot_0 moved too quickly! 1.1033316889369207,5.0,8.645769081358644
+[20:03:53] [Server thread/WARN]: RLBot_0 moved too quickly! 0.9401796335569124,5.0,9.798768723774664
+[20:04:26] [Server thread/WARN]: RLBot_0 moved too quickly! 1.3846226430334907,5.0,10.477333315676567
+[20:04:53] [User Authenticator #1/INFO]: UUID of player Kaldah_The_One is 258e145e-5a3f-30d2-b5b3-f9cfd275a7c7
+[20:04:53] [Server thread/INFO]: Kaldah_The_One joined the game
+[20:04:54] [Server thread/INFO]: Kaldah_The_One[<ip address withheld>] logged in with entity id 13 at ([N7Jumps]8.19373295706329, -52.34417012847067, 13.084284440513187)
+[20:05:24] [Server thread/WARN]: RLBot_0 moved too quickly! 1.1504556487164557,5.0,8.88917343136697
+[20:05:31] [Server thread/WARN]: RLBot_0 moved too quickly! 1.2178344313594724,5.0,9.624598879876917
+[20:05:33] [Server thread/INFO]: Kaldah_The_One lost connection: Disconnected
+[20:05:33] [Server thread/INFO]: Kaldah_The_One left the game
+[20:05:50] [Server thread/INFO]: Stopping server
+[20:05:50] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.20+6667-f0f1e66
+[20:05:50] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[20:05:50] [Server thread/INFO]: Saving players
+[20:05:50] [Server thread/INFO]: RLBot_0 lost connection: Server closed
+[20:05:50] [Server thread/INFO]: RLBot_0 left the game
+[20:05:50] [Server thread/INFO]: Saving worlds
+[20:05:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[N7Jumps]'/minecraft:overworld
+[20:05:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'N7Jumps'
+[20:05:50] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'N7Jumps'
+[20:05:50] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'N7Jumps'
+[20:05:50] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'N7Jumps' in 0,00s
+[20:05:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (N7Jumps): All chunks are saved
+[20:05:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[N7Jumps_nether]'/minecraft:the_nether
+[20:05:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'N7Jumps_nether'
+[20:05:50] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'N7Jumps_nether'
+[20:05:50] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'N7Jumps_nether'
+[20:05:50] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'N7Jumps_nether' in 0,00s
+[20:05:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:05:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[N7Jumps_the_end]'/minecraft:the_end
+[20:05:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'N7Jumps_the_end'
+[20:05:50] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'N7Jumps_the_end'
+[20:05:50] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'N7Jumps_the_end'
+[20:05:50] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'N7Jumps_the_end' in 0,02s
+[20:05:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:05:50] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:05:50] [Server thread/INFO]: Saving usercache.json
+[20:05:50] [Server thread/INFO]: Flushing Chunk IO
+[20:05:50] [Server thread/INFO]: Closing Thread Pool
+[20:05:50] [Server thread/INFO]: Closing Server

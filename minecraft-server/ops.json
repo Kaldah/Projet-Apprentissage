@@ -46,5 +46,11 @@
     "name": "Kaldah_The_One",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "870e3596-0323-33d4-9490-fe8504b5bf1f",
+    "name": "RLBot_5",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]
