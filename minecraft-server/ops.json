@@ -1,13 +1,43 @@
 [
   {
+    "uuid": "229a4bb8-0477-3354-a331-1bd9ecc6ba68",
+    "name": "RLBot_0",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "11e0fb3c-9829-3198-b6bc-1362c75e72c9",
+    "name": "RLBot_2",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "c8a9fb70-a2a7-3535-b1f5-6cff3449265e",
     "name": "N7JumpingBot",
     "level": 4,
     "bypassesPlayerLimit": false
   },
   {
+    "uuid": "2ee7dd04-4300-3952-a158-2d15af60dd8c",
+    "name": "RLBot_3",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "d9c3cca0-b29f-3964-8f65-932a1fccd322",
     "name": "TestTPBot",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "b7543a36-a8e6-3e1a-831e-80aaccc14b20",
+    "name": "RLBot_1",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "fd4a1678-030d-3a34-9dcf-c5ec010a14d7",
+    "name": "RLBot_4",
     "level": 4,
     "bypassesPlayerLimit": false
   },

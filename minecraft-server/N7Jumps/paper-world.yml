@@ -4,3 +4,19 @@
 # World: N7Jumps (minecraft:overworld)
 
 _version: 30
+world-settings:
+  default:
+    auto-save: false
+    entity-activation-range:
+      animals: 0
+      misc: 0
+      monsters: 0
+      raiders: 0
+    game-rule:
+      doImmediateRespawn: true
+      naturalRegeneration: true
+    mob-spawn-range: 0
+    simulation-distance: 6
+    tick-inactive-villagers: false
+    use-faster-eigencrafting: true
+    view-distance: 3
