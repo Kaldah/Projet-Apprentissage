@@ -1,76 +1,58 @@
-[03:13:00] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[03:13:02] [ServerMain/INFO]: Loaded 7 recipes
-[03:13:03] [Server thread/INFO]: Starting minecraft server version 1.19.4
-[03:13:03] [Server thread/INFO]: Loading properties
-[03:13:03] [Server thread/INFO]: This server is running Paper version git-Paper-550 (MC: 1.19.4) (Implementing API version 1.19.4-R0.1-SNAPSHOT) (Git: 483368e on ver/1.19.4)
-[03:13:03] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[03:13:03] [Server thread/INFO]: Using 4 threads for Netty based IO
-[03:13:03] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 4 I/O threads, 8 worker threads, and gen parallelism of 8 threads
-[03:13:04] [Server thread/INFO]: Default game type: SURVIVAL
-[03:13:04] [Server thread/INFO]: Generating keypair
-[03:13:04] [Server thread/INFO]: Starting Minecraft server on *:25565
-[03:13:04] [Server thread/INFO]: Using default channel type
-[03:13:04] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[03:13:04] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[03:13:04] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.20+6667-f0f1e66
-[03:13:05] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@494fe893]
-[03:13:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[03:13:05] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.20+6667-f0f1e66
-[03:13:05] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[03:13:05] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[03:13:06] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R3.PaperweightAdapter as the Bukkit adapter
-[03:13:07] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[03:13:07] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[03:13:07] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[03:13:07] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[03:13:07] [Server thread/INFO]: Preparing level "N7Jumps"
-[03:13:08] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[03:13:09] [Server thread/INFO]: Time elapsed: 748 ms
-[03:13:09] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[03:13:10] [Server thread/INFO]: Time elapsed: 1141 ms
-[03:13:10] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[03:13:11] [Server thread/INFO]: Time elapsed: 1055 ms
-[03:13:11] [Server thread/INFO]: Running delayed init tasks
-[03:13:11] [Server thread/INFO]: Done (8.294s)! For help, type "help"
-[03:13:11] [Server thread/INFO]: Timings Reset
-[03:13:15] [User Authenticator #0/INFO]: UUID of player RLBot_0 is 229a4bb8-0477-3354-a331-1bd9ecc6ba68
-[03:13:15] [Server thread/INFO]: RLBot_0 joined the game
-[03:13:15] [Server thread/INFO]: RLBot_0[<ip address withheld>] logged in with entity id 12 at ([N7Jumps]-1.5, -60.0, 8.5)
-[03:13:29] [User Authenticator #0/INFO]: UUID of player RLBot_1 is b7543a36-a8e6-3e1a-831e-80aaccc14b20
-[03:13:29] [Server thread/INFO]: RLBot_1 joined the game
-[03:13:29] [Server thread/INFO]: RLBot_1[<ip address withheld>] logged in with entity id 13 at ([N7Jumps]7.5, -60.0, 6.5)
-[03:35:45] [User Authenticator #1/INFO]: UUID of player Kaldah_The_One is 258e145e-5a3f-30d2-b5b3-f9cfd275a7c7
-[03:35:45] [Server thread/INFO]: Kaldah_The_One joined the game
-[03:35:45] [Server thread/INFO]: Kaldah_The_One[<ip address withheld>] logged in with entity id 14 at ([N7Jumps]8.19373295706329, -52.34417012847067, 13.084284440513187)
-[03:36:00] [Server thread/INFO]: Kaldah_The_One lost connection: Disconnected
-[03:36:00] [Server thread/INFO]: Kaldah_The_One left the game
-[03:50:45] [Server thread/WARN]: RLBot_0 moved too quickly! 2.0399546932347388,5.0,13.2
-[04:06:26] [Server thread/WARN]: RLBot_0 moved too quickly! 1.567858694417315,5.0,13.2
-[04:08:31] [Server thread/WARN]: RLBot_0 moved too quickly! 2.2,3.750812921255317,13.2
-[04:08:39] [Server thread/WARN]: RLBot_0 moved too quickly! 1.2753003707167725,4.346270382411404,11.593667243396112
-[04:09:58] [Server thread/WARN]: RLBot_1 moved too quickly! 2.2,5.0,13.2
-[04:18:12] [Server thread/WARN]: RLBot_1 moved too quickly! 1.5901302942507236,3.750812921255317,13.2
-[04:31:31] [Server thread/WARN]: RLBot_0 moved too quickly! 2.2,5.0,13.2
-[04:32:27] [Server thread/WARN]: RLBot_1 moved too quickly! 1.6762112479775855,5.0,13.2
-[05:05:03] [Server thread/WARN]: RLBot_1 moved too quickly! 1.2071807222504596,5.0,10.934500852284156
-[05:06:43] [Server thread/WARN]: RLBot_1 moved too quickly! 1.2981131638315526,2.420301456323884,11.800302837519524
-[05:08:43] [Server thread/WARN]: RLBot_0 moved too quickly! 0.6022572720380026,3.8338907390617862,13.2
-[05:16:46] [Server thread/WARN]: RLBot_1 moved too quickly! 1.6070693870854873,3.747796659746271,13.2
-[05:20:03] [Server thread/WARN]: RLBot_0 moved too quickly! 1.3385687524919838,5.0,12.12459816097677
-[05:20:38] [Server thread/WARN]: RLBot_0 moved too quickly! 1.3764479702889076,5.0,12.467703655995098
-[05:29:14] [Server thread/WARN]: RLBot_1 moved too quickly! 1.7790363446268342,5.0,12.502160741721713
-[05:33:18] [Server thread/WARN]: RLBot_1 moved too quickly! 2.2,3.8338907390617862,13.2
-[05:55:28] [Server thread/WARN]: RLBot_0 moved too quickly! 1.459053020093064,3.0694954887628327,13.2
-[06:01:31] [Server thread/WARN]: RLBot_1 moved too quickly! 0.8344178380989122,2.5926045976350593,11.921300248979284
-[06:27:57] [Server thread/WARN]: RLBot_1 moved too quickly! 1.41664162495303,5.0,12.831773047661597
-[06:30:17] [Server thread/WARN]: RLBot_1 moved too quickly! 0.8648296787615894,5.0,13.2
-[06:43:25] [Server thread/WARN]: RLBot_0 moved too quickly! 1.3564695960495783,4.346270382411404,12.286741894329506
-[06:43:41] [Server thread/WARN]: RLBot_0 moved too quickly! 1.6507092248324442,5.0,11.363584889972703
-[06:44:10] [Server thread/INFO]: Stopping server
-[06:44:10] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.20+6667-f0f1e66
-[06:44:10] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[06:44:10] [Server thread/INFO]: Saving players
-[06:44:10] [Server thread/INFO]: RLBot_0 lost connection: Server closed
-[06:44:10] [Server thread/INFO]: RLBot_0 left the game
-[06:44:10] [Server thread/INFO]: RLBot_1 lost connection: Server closed
-[06:44:10] [Server thread/INFO]: RLBot_1 left the game
+[17:26:35] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:26:36] [ServerMain/INFO]: Loaded 7 recipes
+[17:26:38] [Server thread/INFO]: Starting minecraft server version 1.19.4
+[17:26:38] [Server thread/INFO]: Loading properties
+[17:26:38] [Server thread/INFO]: This server is running Paper version git-Paper-550 (MC: 1.19.4) (Implementing API version 1.19.4-R0.1-SNAPSHOT) (Git: 483368e on ver/1.19.4)
+[17:26:38] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:26:38] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:26:38] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 4 I/O threads, 8 worker threads, and gen parallelism of 8 threads
+[17:26:38] [Server thread/INFO]: Default game type: SURVIVAL
+[17:26:38] [Server thread/INFO]: Generating keypair
+[17:26:39] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:26:39] [Server thread/INFO]: Using default channel type
+[17:26:39] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[17:26:39] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[17:26:39] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.20+6667-f0f1e66
+[17:26:40] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7a2bf6f2]
+[17:26:40] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:26:40] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.20+6667-f0f1e66
+[17:26:40] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[17:26:40] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[17:26:41] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R3.PaperweightAdapter as the Bukkit adapter
+[17:26:42] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:26:42] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:26:42] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:26:42] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:26:42] [Server thread/INFO]: Preparing level "N7Jumps"
+[17:26:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:26:46] [Server thread/INFO]: Time elapsed: 2907 ms
+[17:26:46] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:26:47] [Server thread/INFO]: Time elapsed: 1265 ms
+[17:26:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:26:48] [Server thread/INFO]: Time elapsed: 272 ms
+[17:26:48] [Server thread/INFO]: Running delayed init tasks
+[17:26:48] [Server thread/INFO]: Done (10.234s)! For help, type "help"
+[17:26:48] [Server thread/INFO]: Timings Reset
+[17:26:50] [User Authenticator #0/INFO]: UUID of player RLBot_0 is 229a4bb8-0477-3354-a331-1bd9ecc6ba68
+[17:26:50] [Server thread/INFO]: RLBot_0 joined the game
+[17:26:50] [Server thread/INFO]: RLBot_0[<ip address withheld>] logged in with entity id 10 at ([N7Jumps]-3.5, -60.0, 0.5)
+[17:27:04] [User Authenticator #0/INFO]: UUID of player RLBot_0 is 229a4bb8-0477-3354-a331-1bd9ecc6ba68
+[17:27:05] [Server thread/INFO]: RLBot_0 lost connection: You logged in from another location
+[17:27:05] [Server thread/INFO]: RLBot_0 left the game
+[17:27:05] [Server thread/INFO]: RLBot_0 joined the game
+[17:27:05] [Server thread/INFO]: RLBot_0[<ip address withheld>] logged in with entity id 13 at ([N7Jumps]3.5, -60.0, 10.5)
+[17:27:57] [User Authenticator #0/INFO]: UUID of player Kaldah_The_One is 258e145e-5a3f-30d2-b5b3-f9cfd275a7c7
+[17:27:57] [Server thread/INFO]: Kaldah_The_One joined the game
+[17:27:57] [Server thread/INFO]: Kaldah_The_One[<ip address withheld>] logged in with entity id 14 at ([N7Jumps]8.19373295706329, -52.34417012847067, 13.084284440513187)
+[17:29:32] [Server thread/WARN]: RLBot_0 moved too quickly! -1.3257734742762075,5.0,11.069307452683118
+[17:30:10] [Server thread/INFO]: Kaldah_The_One lost connection: Disconnected
+[17:30:10] [Server thread/INFO]: Kaldah_The_One left the game
+[17:31:19] [User Authenticator #1/INFO]: UUID of player Kaldah_The_One is 258e145e-5a3f-30d2-b5b3-f9cfd275a7c7
+[17:31:19] [Server thread/INFO]: Kaldah_The_One joined the game
+[17:31:19] [Server thread/INFO]: Kaldah_The_One[<ip address withheld>] logged in with entity id 15 at ([N7Jumps]8.19373295706329, -52.34417012847067, 13.084284440513187)
+[17:31:23] [Server thread/INFO]: Kaldah_The_One lost connection: Disconnected
+[17:31:23] [Server thread/INFO]: Kaldah_The_One left the game
+[17:32:51] [Server thread/WARN]: RLBot_0 moved too quickly! 1.3080028372216592,3.6945615482487852,12.129658960687117
+[17:37:03] [User Authenticator #2/INFO]: UUID of player Kaldah_The_One is 258e145e-5a3f-30d2-b5b3-f9cfd275a7c7
+[17:37:03] [Server thread/INFO]: Kaldah_The_One joined the game
+[17:37:03] [Server thread/INFO]: Kaldah_The_One[<ip address withheld>] logged in with entity id 16 at ([N7Jumps]8.19373295706329, -52.34417012847067, 13.084284440513187)
